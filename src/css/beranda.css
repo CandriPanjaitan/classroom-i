@@ -1,0 +1,34 @@
+.beranda {
+  padding: 5rem 7%;
+}
+.beranda-nama {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.beranda-konten {
+  margin-top: 1rem;
+  display: flex;
+  gap: 3rem;
+}
+.konten-gambar {
+  width: 65rem;
+  height: 15rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ffff;
+  box-shadow: 0 0 50px #00ffff;
+}
+.konten-gambar img {
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.konten-teks{
+    margin-top: 1rem;
+    width: 115rem;
+}
